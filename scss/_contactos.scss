@@ -1,0 +1,29 @@
+/* Seccion de contactos */
+
+.contenedorcontacto {
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/contactos.jpg);
+	background-size: 100%;
+	animation: movcontenedor 10s infinite alternate;
+}
+.contenedorcontacto h2 {
+	color: white;
+	position: relative;
+	top: 150px;
+}
+.contacto1{
+	font-family: 'Russo One';
+	font-size: 20px;
+	font-style: initial;
+	color: blue;
+}
+.boxcontacto {
+	display: grid;
+	justify-content: center;
+}
+.terminosycondiciones{
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	color: black;
+}

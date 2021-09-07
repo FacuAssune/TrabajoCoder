@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords"  content="Vuelos, pasajes, destinos, accesibilidad, viajes, paisajes, lugares, viajar, volar, conocer, planificar, planes, descuentos, paises, ciudades, europa, asia, norteamerica">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Los mejores vuelos al mejor precio, Fly airlines. Elija su destino a la mejor financiacion." />
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <title>Fly airlines | | Los mejores vuelos al precio mas accesible</title>
+</head>
+<body>
+  <div class="Contenedor">
+  <header> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Fly airlines</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/servicios.html">Servicios</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Centro de ayuda</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="pages/reservas.html">Reservas</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+<div class="contenedorportada">
+  <div class="contenedordetalle">
+    <div class="contenedordetalle2">
+  <h1> Comience su viaje aqui </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+     <button> Saber mas acerca de nosotros</button>
+    </div>
+  </div>
+</div>
+  </header>
+  <section>
+    <h2> Reserva tu vuelo</h2>
+      <div class="fechas">
+      Ida y vuelta
+        <input type= "radio" name= "acepta" value= 1>      
+      </div> 
+      <div class="fechas">
+      Solo ida
+        <input type= "radio" name= "acepta" value= 2>       
+      </div> 
+  </section>
+  <section> 
+  <div class="contenedor2">
+  <table border="1" cellpadding="10" cellspacing="20"> 
+    <tr>
+      <th> 
+        <form action=""> 
+        <label for="origen"> Origen 
+          <input type="text" name="origen">
+        </label> </th>
+      <th> <form action=""> 
+        <label for="destino"> Destino 
+          <input type="text" name="destino">
+        </label> </th>
+    </tr>
+    <tr>
+      <th> <label for= "Fecha">Fecha de ida:
+            <input type="date" name= "Fecha"> </th>
+      <th> <label for= "Fecha">Fecha de regreso:
+            <input type="date" name= "Fecha"> </th>
+      <th> <p> Cantidad de pasajeros: </p> 
+            <div> Adultos (12 o mas años)
+            <select name= "cantidad" id="cantidad">
+              <option value="1"> 1 </option>
+              <option value="2"> 2</option>
+              <option value="3"> 3</option>
+              <option value="4"> 4 </option>
+              <option value="5"> 5</option>
+              <option value="6"> 6</option>
+              <option value="1"> 7 </option>
+              <option value="2"> 8</option>
+              <option value="3"> 9</option>
+            </select>
+          </div>
+            <div> Niños (2-11 años)
+               <select name= "cantidad" id="cantidad">
+              <option value="1"> 1 </option>
+              <option value="2"> 2</option>
+              <option value="3"> 3</option>
+              <option value="4"> 4 </option>
+              <option value="5"> 5</option>
+              <option value="6"> 6</option>
+              <option value="1"> 7 </option>
+              <option value="2"> 8</option>
+              <option value="3"> 9</option>
+            </select>
+          </div> 
+             <div> Bebe (menor a 2 años)               
+               <select name= "cantidad" id="cantidad">
+              <option value="1"> 1 </option>
+              <option value="2"> 2</option>
+              <option value="3"> 3</option>
+              <option value="4"> 4 </option>
+              <option value="5"> 5</option>
+              <option value="6"> 6</option>
+              <option value="1"> 7 </option>
+              <option value="2"> 8</option>
+              <option value="3"> 9</option>
+            </select>
+          </div> </th>
+    </tr> 
+  </table> <br>
+    <input class="busqueda" type="submit" value="Buscar vuelos">
+          <input class="busqueda" type="reset" value="Limpiar">
+        </div>
+</section>
+<div class="container marketing">
+  <br>
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="images/brasil.jpg">    
+
+        <h2>Paquetes a Brasil</h2>
+        <p>Disfruta de las mejores vacaciones en las playas de Brasil</p>
+        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="images/repdom.png">
+      
+        <h2>Paquetes al caribe</h2>
+        <p>Las mejores tarifas desde enero hasta marzo en viajes al caribe</p>
+        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="images/usa.jpg">
+
+        <h2>Paquetes a USA</h2>
+        <p>Viaje a Estados unidos con todo el paquete includio estas vacaciones</p>
+        <p><a class="btn btn-secondary" href="#">Ver detalles &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+   <h2> Ofertas especiales </h2>
+      <h3 class="titulooferta"> Conoce Australia </h3>
+        <p class="loremoferta"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+      <h3 class="titulooferta"> Conoce los mejores lugares de Europa </h3>
+        <p class="loremoferta"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+      <h3 class="titulooferta"> Conoce los mejores lugares de Asia </h3>
+        <p class="loremoferta"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> <hr>
+      </div>
+
+ <footer> 
+  <ul class="footer1">
+      <li class="footer2"> Ayuda </li>
+      <li class="footer2"> Aceca de </li>
+      <li class="footer2"> Adicional </li>
+      <li class="footer2"> Informacion </li>
+  </ul>
+ </footer> 
+</div>
+</body>
+</html> 

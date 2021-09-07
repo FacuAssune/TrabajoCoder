@@ -1,0 +1,259 @@
+h1 {font-family: 'Russo One', sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	color: white;
+	text-align: initial;
+}
+
+body {color: black;
+	background-image: url(../images/airplane.jpg);
+}
+.Contenedor {
+	display: grid;
+	grid-template-columns: 100%;
+	justify-content: center;
+}
+.verdetalles {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.contenedorportada{
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/portada1.jpg);
+	background-size: 100%;
+	animation: movcontenedor 10s infinite alternate;
+}
+@keyframes movcontenedor{
+			from{
+				background-position: bottom left;
+			}
+			to{
+				background-position: top right;
+			}
+}
+.contenedordetalle {
+	width: 100%;
+	max-width: 500px;
+	position: relative;
+	color: white;
+	top: 50px;
+	left: 20px;
+}
+.contenedordetalle2 button{
+	padding: 10px 20px;
+	font-size: 15px;
+	background: none;
+	border-style: none;
+	border: 1px solid white;
+	color: white;
+	margin-top: 20px;
+
+}
+header nav .encabezado {
+  display:grid;
+ 	grid-template-columns: repeat(9, 1fr);
+  list-style: none;
+  justify-content: center;
+  padding: 40px;
+  font-size: 1.2rem;
+}
+.encabezado li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.encabezado li a:hover {
+  background-color: white;
+  color: lightblue;
+  padding: 20px;
+}
+table {
+	border: solid 3px transparent;
+	background-color: transparent;
+	color: black;
+}
+.contenedor2 {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+nav{font-weight: bold;
+	color: darkblue;
+}
+h2{
+	font-size: 30px;
+	color: darkblue;
+	text-align: center;
+	}
+
+h3{
+	font-style: oblique;
+	color: darkblue;
+	}
+.titulooferta:hover {
+	transition: 2s;
+	font-size: 25px;
+	text-align: center;
+}
+.titulooferta{
+	font-weight: bolder;
+	color: darkred;
+	font-style: oblique; 
+	font-size: 20px;
+	text-align: center;
+	}
+.loremoferta{
+	text-align: center;
+	font-weight: bolder;
+}
+.clasereserva{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 30px;
+	color: orange;
+
+}
+.textoreserva {
+	text-align: center;
+	color: darkblue;
+	font-weight: normal;
+	font-size: 17px;
+}
+.fechas{
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	color: midnightblue;
+	justify-content: center;
+	text-align: center;
+}
+.boxhotel {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+.hoteleria {
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	color: lightgreens;
+}
+.hoteldiv{
+width: 100%;
+height: 400px;
+
+}
+.contenthotel {
+	width: 100%;
+	height: 150px;
+}
+.hoteldiv a{
+	position: relative;
+	text-align: center;
+
+}
+.contentcoche {
+	width: 100%;
+	height: 200px;
+}
+.contentcoche h2 {
+	color: black;
+	position: relative;
+	top: 20px;
+}
+.coches {
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	color: darkslateblue;
+}
+.coche1 {
+	list-style: lower-hexadecimal;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: lighter;
+	color: black;
+}
+.boxcoche {
+	display: grid;
+	justify-content: center;
+}
+.contenedorcontacto {
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/contactos.jpg);
+	background-size: 100%;
+	animation: movcontenedor 10s infinite alternate;
+}
+.contenedorcontacto h2 {
+	color: white;
+	position: relative;
+	top: 150px;
+}
+.contacto1{
+	font-family: 'Russo One';
+	font-size: 20px;
+	font-style: initial;
+	color: blue;
+}
+.boxcontacto {
+	display: grid;
+	justify-content: center;
+}
+.terminosycondiciones{
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	color: black;
+}
+.tituloservicio{
+	width: 100%;
+	height: 300px;
+}
+.tituloservicio h2 {
+	position: relative;
+	top: 100px;
+
+}
+.container-content article{
+	width: 220px;
+}
+.container-content img {
+	width: 100%;
+}
+.container-content article h2,
+.container-content article p {
+	margin-top: 20px;
+	padding: 0px 20px;
+}
+.container-content article button {
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: 16px;
+	background: black;
+	border: none;
+	cursor: pointer;
+	border-radius: 6px;
+	color: white;
+}
+.container-content {
+	display: grid;
+	grid-template-columns: 350px 350px 350px 350px ;
+}
+
+.footer1{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px; 
+	list-style: none;
+	font-weight: bold;
+	color: darkblue;
+	width: 100%;
+	position: static;
+	bottom: 0;
+	left: 0;
+	justify-content: center;
+}
+.footer2 {
+	padding: 20px;
+}
+

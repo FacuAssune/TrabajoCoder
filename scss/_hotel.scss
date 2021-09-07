@@ -1,0 +1,26 @@
+/* Seccion de hotel*/
+
+.boxhotel {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+.hoteleria {
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	color: lightgreens;
+}
+.hoteldiv{
+width: 100%;
+height: 400px;
+
+}
+.contenthotel {
+	width: 100%;
+	height: 150px;
+}
+.hoteldiv a{
+	position: relative;
+	text-align: center;
+
+}

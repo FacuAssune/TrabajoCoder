@@ -1,0 +1,26 @@
+/*Seccion de coches */
+
+.contentcoche {
+	width: 100%;
+	height: 200px;
+}
+.contentcoche h2 {
+	color: black;
+	position: relative;
+	top: 20px;
+}
+.coches {
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	color: darkslateblue;
+}
+.coche1 {
+	list-style: lower-hexadecimal;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: lighter;
+	color: black;
+}
+.boxcoche {
+	display: grid;
+	justify-content: center;
+}
